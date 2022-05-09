@@ -1,0 +1,20 @@
+PODS:
+  - Floaty (4.2.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - Floaty (~> 4.2.0)
+  - SnapKit (~> 5.6.0)
+
+SPEC REPOS:
+  trunk:
+    - Floaty
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Floaty: e2bd5a0f6f7f70899e26ff2da31081c8bee8d1b0
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 3a8e4ea62473411d21108a5f9c08b2757d7434ae
+
+COCOAPODS: 1.11.2

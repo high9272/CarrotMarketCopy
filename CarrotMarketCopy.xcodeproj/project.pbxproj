@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25DF4EA898374A26CB2A693E /* Pods_CarrotMarketCopy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E00E3F622144122B239A2726 /* Pods_CarrotMarketCopy.framework */; };
+		5CC5FA7EB6D2A6E3A5D67847 /* Pods_CarrotMarketCopy_CarrotMarketCopyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0211688A7F739BCC8D9011C /* Pods_CarrotMarketCopy_CarrotMarketCopyUITests.framework */; };
+		64AACA0A0B8F7D4B9856A5E7 /* Pods_CarrotMarketCopyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C45022C05DDF5B8B1F27FB8 /* Pods_CarrotMarketCopyTests.framework */; };
+		73340D7A2828E6DD00372B84 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73340D792828E6DD00372B84 /* HomeViewCell.swift */; };
+		73340D7C2829019C00372B84 /* MyLocationButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73340D7B2829019C00372B84 /* MyLocationButtonCell.swift */; };
+		738EBE312820E57C00C16567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738EBE302820E57C00C16567 /* AppDelegate.swift */; };
+		738EBE332820E57C00C16567 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738EBE322820E57C00C16567 /* SceneDelegate.swift */; };
+		738EBE352820E57C00C16567 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738EBE342820E57C00C16567 /* TabViewController.swift */; };
+		738EBE382820E57C00C16567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738EBE362820E57C00C16567 /* Main.storyboard */; };
+		738EBE3A2820E57F00C16567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738EBE392820E57F00C16567 /* Assets.xcassets */; };
+		738EBE3D2820E57F00C16567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738EBE3B2820E57F00C16567 /* LaunchScreen.storyboard */; };
+		738EBE482820E57F00C16567 /* CarrotMarketCopyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738EBE472820E57F00C16567 /* CarrotMarketCopyTests.swift */; };
+		738EBE522820E58000C16567 /* CarrotMarketCopyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738EBE512820E58000C16567 /* CarrotMarketCopyUITests.swift */; };
+		738EBE542820E58000C16567 /* CarrotMarketCopyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738EBE532820E58000C16567 /* CarrotMarketCopyUITestsLaunchTests.swift */; };
+		738EBE612820F34A00C16567 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738EBE602820F34A00C16567 /* HomeViewController.swift */; };
+		738EBE632820F4DB00C16567 /* NeighborhoodLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738EBE622820F4DB00C16567 /* NeighborhoodLifeViewController.swift */; };
+		738EBE662820F78300C16567 /* MyLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738EBE652820F78300C16567 /* MyLocationViewController.swift */; };
+		738EBE682820FC4F00C16567 /* ChattViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738EBE672820FC4F00C16567 /* ChattViewController.swift */; };
+		738EBE6A2820FCB700C16567 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738EBE692820FCB700C16567 /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		738EBE442820E57F00C16567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 738EBE252820E57C00C16567 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 738EBE2C2820E57C00C16567;
+			remoteInfo = CarrotMarketCopy;
+		};
+		738EBE4E2820E57F00C16567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 738EBE252820E57C00C16567 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 738EBE2C2820E57C00C16567;
+			remoteInfo = CarrotMarketCopy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BB3F6EABCD8A3E02EC98E27 /* Pods-CarrotMarketCopyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotMarketCopyTests.release.xcconfig"; path = "Target Support Files/Pods-CarrotMarketCopyTests/Pods-CarrotMarketCopyTests.release.xcconfig"; sourceTree = "<group>"; };
+		447F8A45C7546C7E94D043ED /* Pods-CarrotMarketCopy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotMarketCopy.debug.xcconfig"; path = "Target Support Files/Pods-CarrotMarketCopy/Pods-CarrotMarketCopy.debug.xcconfig"; sourceTree = "<group>"; };
+		4C45022C05DDF5B8B1F27FB8 /* Pods_CarrotMarketCopyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotMarketCopyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		503E4ACD00599A11688219AD /* Pods-CarrotMarketCopy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotMarketCopy.release.xcconfig"; path = "Target Support Files/Pods-CarrotMarketCopy/Pods-CarrotMarketCopy.release.xcconfig"; sourceTree = "<group>"; };
+		69480397639F88B2AC5AB513 /* Pods-CarrotMarketCopyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotMarketCopyTests.debug.xcconfig"; path = "Target Support Files/Pods-CarrotMarketCopyTests/Pods-CarrotMarketCopyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73340D792828E6DD00372B84 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		73340D7B2829019C00372B84 /* MyLocationButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationButtonCell.swift; sourceTree = "<group>"; };
+		738EBE2D2820E57C00C16567 /* CarrotMarketCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotMarketCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		738EBE302820E57C00C16567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		738EBE322820E57C00C16567 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		738EBE342820E57C00C16567 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		738EBE372820E57C00C16567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		738EBE392820E57F00C16567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		738EBE3C2820E57F00C16567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		738EBE3E2820E57F00C16567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		738EBE432820E57F00C16567 /* CarrotMarketCopyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrotMarketCopyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		738EBE472820E57F00C16567 /* CarrotMarketCopyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotMarketCopyTests.swift; sourceTree = "<group>"; };
+		738EBE4D2820E57F00C16567 /* CarrotMarketCopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrotMarketCopyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		738EBE512820E58000C16567 /* CarrotMarketCopyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotMarketCopyUITests.swift; sourceTree = "<group>"; };
+		738EBE532820E58000C16567 /* CarrotMarketCopyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotMarketCopyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		738EBE602820F34A00C16567 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		738EBE622820F4DB00C16567 /* NeighborhoodLifeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeighborhoodLifeViewController.swift; sourceTree = "<group>"; };
+		738EBE652820F78300C16567 /* MyLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationViewController.swift; sourceTree = "<group>"; };
+		738EBE672820FC4F00C16567 /* ChattViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattViewController.swift; sourceTree = "<group>"; };
+		738EBE692820FCB700C16567 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		94010FDA3F14A1852BFA1D12 /* Pods-CarrotMarketCopy-CarrotMarketCopyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotMarketCopy-CarrotMarketCopyUITests.debug.xcconfig"; path = "Target Support Files/Pods-CarrotMarketCopy-CarrotMarketCopyUITests/Pods-CarrotMarketCopy-CarrotMarketCopyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E00E3F622144122B239A2726 /* Pods_CarrotMarketCopy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotMarketCopy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0211688A7F739BCC8D9011C /* Pods_CarrotMarketCopy_CarrotMarketCopyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotMarketCopy_CarrotMarketCopyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8962A514A0950915334E495 /* Pods-CarrotMarketCopy-CarrotMarketCopyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotMarketCopy-CarrotMarketCopyUITests.release.xcconfig"; path = "Target Support Files/Pods-CarrotMarketCopy-CarrotMarketCopyUITests/Pods-CarrotMarketCopy-CarrotMarketCopyUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		738EBE2A2820E57C00C16567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DF4EA898374A26CB2A693E /* Pods_CarrotMarketCopy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738EBE402820E57F00C16567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64AACA0A0B8F7D4B9856A5E7 /* Pods_CarrotMarketCopyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738EBE4A2820E57F00C16567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC5FA7EB6D2A6E3A5D67847 /* Pods_CarrotMarketCopy_CarrotMarketCopyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5771DE022BC74587BDB0A7B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				447F8A45C7546C7E94D043ED /* Pods-CarrotMarketCopy.debug.xcconfig */,
+				503E4ACD00599A11688219AD /* Pods-CarrotMarketCopy.release.xcconfig */,
+				94010FDA3F14A1852BFA1D12 /* Pods-CarrotMarketCopy-CarrotMarketCopyUITests.debug.xcconfig */,
+				F8962A514A0950915334E495 /* Pods-CarrotMarketCopy-CarrotMarketCopyUITests.release.xcconfig */,
+				69480397639F88B2AC5AB513 /* Pods-CarrotMarketCopyTests.debug.xcconfig */,
+				1BB3F6EABCD8A3E02EC98E27 /* Pods-CarrotMarketCopyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		73340D7D282906F900372B84 /* 내 근처 */ = {
+			isa = PBXGroup;
+			children = (
+				738EBE652820F78300C16567 /* MyLocationViewController.swift */,
+				73340D7B2829019C00372B84 /* MyLocationButtonCell.swift */,
+			);
+			name = "내 근처";
+			path = "내 근처";
+			sourceTree = "<group>";
+		};
+		73340D7E2829070300372B84 /* 홈 */ = {
+			isa = PBXGroup;
+			children = (
+				738EBE602820F34A00C16567 /* HomeViewController.swift */,
+				73340D792828E6DD00372B84 /* HomeViewCell.swift */,
+			);
+			name = "홈";
+			path = "홈";
+			sourceTree = "<group>";
+		};
+		738EBE242820E57C00C16567 = {
+			isa = PBXGroup;
+			children = (
+				738EBE2F2820E57C00C16567 /* CarrotMarketCopy */,
+				738EBE462820E57F00C16567 /* CarrotMarketCopyTests */,
+				738EBE502820E57F00C16567 /* CarrotMarketCopyUITests */,
+				738EBE2E2820E57C00C16567 /* Products */,
+				5771DE022BC74587BDB0A7B6 /* Pods */,
+				C486A138A4AC56212090440C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		738EBE2E2820E57C00C16567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				738EBE2D2820E57C00C16567 /* CarrotMarketCopy.app */,
+				738EBE432820E57F00C16567 /* CarrotMarketCopyTests.xctest */,
+				738EBE4D2820E57F00C16567 /* CarrotMarketCopyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		738EBE2F2820E57C00C16567 /* CarrotMarketCopy */ = {
+			isa = PBXGroup;
+			children = (
+				738EBE302820E57C00C16567 /* AppDelegate.swift */,
+				738EBE322820E57C00C16567 /* SceneDelegate.swift */,
+				738EBE342820E57C00C16567 /* TabViewController.swift */,
+				738EBE642820F4F800C16567 /* Scene */,
+				738EBE362820E57C00C16567 /* Main.storyboard */,
+				738EBE392820E57F00C16567 /* Assets.xcassets */,
+				738EBE3B2820E57F00C16567 /* LaunchScreen.storyboard */,
+				738EBE3E2820E57F00C16567 /* Info.plist */,
+			);
+			path = CarrotMarketCopy;
+			sourceTree = "<group>";
+		};
+		738EBE462820E57F00C16567 /* CarrotMarketCopyTests */ = {
+			isa = PBXGroup;
+			children = (
+				738EBE472820E57F00C16567 /* CarrotMarketCopyTests.swift */,
+			);
+			path = CarrotMarketCopyTests;
+			sourceTree = "<group>";
+		};
+		738EBE502820E57F00C16567 /* CarrotMarketCopyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				738EBE512820E58000C16567 /* CarrotMarketCopyUITests.swift */,
+				738EBE532820E58000C16567 /* CarrotMarketCopyUITestsLaunchTests.swift */,
+			);
+			path = CarrotMarketCopyUITests;
+			sourceTree = "<group>";
+		};
+		738EBE642820F4F800C16567 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				73340D7E2829070300372B84 /* 홈 */,
+				738EBE622820F4DB00C16567 /* NeighborhoodLifeViewController.swift */,
+				73340D7D282906F900372B84 /* 내 근처 */,
+				738EBE672820FC4F00C16567 /* ChattViewController.swift */,
+				738EBE692820FCB700C16567 /* ProfileViewController.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		C486A138A4AC56212090440C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E00E3F622144122B239A2726 /* Pods_CarrotMarketCopy.framework */,
+				E0211688A7F739BCC8D9011C /* Pods_CarrotMarketCopy_CarrotMarketCopyUITests.framework */,
+				4C45022C05DDF5B8B1F27FB8 /* Pods_CarrotMarketCopyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		738EBE2C2820E57C00C16567 /* CarrotMarketCopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738EBE572820E58000C16567 /* Build configuration list for PBXNativeTarget "CarrotMarketCopy" */;
+			buildPhases = (
+				04A0472A0F35169C14913A34 /* [CP] Check Pods Manifest.lock */,
+				738EBE292820E57C00C16567 /* Sources */,
+				738EBE2A2820E57C00C16567 /* Frameworks */,
+				738EBE2B2820E57C00C16567 /* Resources */,
+				2EA93C14D87798A1093FFE13 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarrotMarketCopy;
+			productName = CarrotMarketCopy;
+			productReference = 738EBE2D2820E57C00C16567 /* CarrotMarketCopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		738EBE422820E57F00C16567 /* CarrotMarketCopyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738EBE5A2820E58000C16567 /* Build configuration list for PBXNativeTarget "CarrotMarketCopyTests" */;
+			buildPhases = (
+				B5EFD586AAA100D4DC5CACFE /* [CP] Check Pods Manifest.lock */,
+				738EBE3F2820E57F00C16567 /* Sources */,
+				738EBE402820E57F00C16567 /* Frameworks */,
+				738EBE412820E57F00C16567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				738EBE452820E57F00C16567 /* PBXTargetDependency */,
+			);
+			name = CarrotMarketCopyTests;
+			productName = CarrotMarketCopyTests;
+			productReference = 738EBE432820E57F00C16567 /* CarrotMarketCopyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		738EBE4C2820E57F00C16567 /* CarrotMarketCopyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738EBE5D2820E58000C16567 /* Build configuration list for PBXNativeTarget "CarrotMarketCopyUITests" */;
+			buildPhases = (
+				42F5E7B7E05FDA848C5BC36B /* [CP] Check Pods Manifest.lock */,
+				738EBE492820E57F00C16567 /* Sources */,
+				738EBE4A2820E57F00C16567 /* Frameworks */,
+				738EBE4B2820E57F00C16567 /* Resources */,
+				7180D4B2166A2DC9130D0710 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				738EBE4F2820E57F00C16567 /* PBXTargetDependency */,
+			);
+			name = CarrotMarketCopyUITests;
+			productName = CarrotMarketCopyUITests;
+			productReference = 738EBE4D2820E57F00C16567 /* CarrotMarketCopyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		738EBE252820E57C00C16567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					738EBE2C2820E57C00C16567 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					738EBE422820E57F00C16567 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 738EBE2C2820E57C00C16567;
+					};
+					738EBE4C2820E57F00C16567 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 738EBE2C2820E57C00C16567;
+					};
+				};
+			};
+			buildConfigurationList = 738EBE282820E57C00C16567 /* Build configuration list for PBXProject "CarrotMarketCopy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 738EBE242820E57C00C16567;
+			productRefGroup = 738EBE2E2820E57C00C16567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				738EBE2C2820E57C00C16567 /* CarrotMarketCopy */,
+				738EBE422820E57F00C16567 /* CarrotMarketCopyTests */,
+				738EBE4C2820E57F00C16567 /* CarrotMarketCopyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		738EBE2B2820E57C00C16567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738EBE3D2820E57F00C16567 /* LaunchScreen.storyboard in Resources */,
+				738EBE3A2820E57F00C16567 /* Assets.xcassets in Resources */,
+				738EBE382820E57C00C16567 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738EBE412820E57F00C16567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738EBE4B2820E57F00C16567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A0472A0F35169C14913A34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarrotMarketCopy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EA93C14D87798A1093FFE13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarrotMarketCopy/Pods-CarrotMarketCopy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarrotMarketCopy/Pods-CarrotMarketCopy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarrotMarketCopy/Pods-CarrotMarketCopy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42F5E7B7E05FDA848C5BC36B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarrotMarketCopy-CarrotMarketCopyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7180D4B2166A2DC9130D0710 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarrotMarketCopy-CarrotMarketCopyUITests/Pods-CarrotMarketCopy-CarrotMarketCopyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarrotMarketCopy-CarrotMarketCopyUITests/Pods-CarrotMarketCopy-CarrotMarketCopyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarrotMarketCopy-CarrotMarketCopyUITests/Pods-CarrotMarketCopy-CarrotMarketCopyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5EFD586AAA100D4DC5CACFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarrotMarketCopyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		738EBE292820E57C00C16567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738EBE352820E57C00C16567 /* TabViewController.swift in Sources */,
+				738EBE312820E57C00C16567 /* AppDelegate.swift in Sources */,
+				738EBE632820F4DB00C16567 /* NeighborhoodLifeViewController.swift in Sources */,
+				738EBE332820E57C00C16567 /* SceneDelegate.swift in Sources */,
+				738EBE682820FC4F00C16567 /* ChattViewController.swift in Sources */,
+				738EBE612820F34A00C16567 /* HomeViewController.swift in Sources */,
+				738EBE6A2820FCB700C16567 /* ProfileViewController.swift in Sources */,
+				738EBE662820F78300C16567 /* MyLocationViewController.swift in Sources */,
+				73340D7C2829019C00372B84 /* MyLocationButtonCell.swift in Sources */,
+				73340D7A2828E6DD00372B84 /* HomeViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738EBE3F2820E57F00C16567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738EBE482820E57F00C16567 /* CarrotMarketCopyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738EBE492820E57F00C16567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738EBE542820E58000C16567 /* CarrotMarketCopyUITestsLaunchTests.swift in Sources */,
+				738EBE522820E58000C16567 /* CarrotMarketCopyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		738EBE452820E57F00C16567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 738EBE2C2820E57C00C16567 /* CarrotMarketCopy */;
+			targetProxy = 738EBE442820E57F00C16567 /* PBXContainerItemProxy */;
+		};
+		738EBE4F2820E57F00C16567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 738EBE2C2820E57C00C16567 /* CarrotMarketCopy */;
+			targetProxy = 738EBE4E2820E57F00C16567 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		738EBE362820E57C00C16567 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				738EBE372820E57C00C16567 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		738EBE3B2820E57F00C16567 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				738EBE3C2820E57F00C16567 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		738EBE552820E58000C16567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		738EBE562820E58000C16567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		738EBE582820E58000C16567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447F8A45C7546C7E94D043ED /* Pods-CarrotMarketCopy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BF5PSQ2A4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarrotMarketCopy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dawoon.CarrotMarketCopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		738EBE592820E58000C16567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503E4ACD00599A11688219AD /* Pods-CarrotMarketCopy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BF5PSQ2A4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarrotMarketCopy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dawoon.CarrotMarketCopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		738EBE5B2820E58000C16567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69480397639F88B2AC5AB513 /* Pods-CarrotMarketCopyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BF5PSQ2A4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dawoon.CarrotMarketCopyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarrotMarketCopy.app/CarrotMarketCopy";
+			};
+			name = Debug;
+		};
+		738EBE5C2820E58000C16567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB3F6EABCD8A3E02EC98E27 /* Pods-CarrotMarketCopyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BF5PSQ2A4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dawoon.CarrotMarketCopyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarrotMarketCopy.app/CarrotMarketCopy";
+			};
+			name = Release;
+		};
+		738EBE5E2820E58000C16567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94010FDA3F14A1852BFA1D12 /* Pods-CarrotMarketCopy-CarrotMarketCopyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BF5PSQ2A4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dawoon.CarrotMarketCopyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarrotMarketCopy;
+			};
+			name = Debug;
+		};
+		738EBE5F2820E58000C16567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8962A514A0950915334E495 /* Pods-CarrotMarketCopy-CarrotMarketCopyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BF5PSQ2A4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dawoon.CarrotMarketCopyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarrotMarketCopy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		738EBE282820E57C00C16567 /* Build configuration list for PBXProject "CarrotMarketCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738EBE552820E58000C16567 /* Debug */,
+				738EBE562820E58000C16567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738EBE572820E58000C16567 /* Build configuration list for PBXNativeTarget "CarrotMarketCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738EBE582820E58000C16567 /* Debug */,
+				738EBE592820E58000C16567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738EBE5A2820E58000C16567 /* Build configuration list for PBXNativeTarget "CarrotMarketCopyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738EBE5B2820E58000C16567 /* Debug */,
+				738EBE5C2820E58000C16567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738EBE5D2820E58000C16567 /* Build configuration list for PBXNativeTarget "CarrotMarketCopyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738EBE5E2820E58000C16567 /* Debug */,
+				738EBE5F2820E58000C16567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 738EBE252820E57C00C16567 /* Project object */;
+}

@@ -22,7 +22,7 @@ class HomeViewCell:UITableViewCell {
     
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "맥북에어 팜니다"
+        label.text = "맥북에어 팝니다"
         label.textColor = .label
         label.font = .systemFont(ofSize: 15, weight: .regular)
         

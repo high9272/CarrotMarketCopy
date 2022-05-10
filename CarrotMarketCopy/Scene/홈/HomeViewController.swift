@@ -12,6 +12,10 @@ import Floaty
 
 class HomeViewController:UIViewController{
     
+    let floaty = Floaty()
+    
+    
+    
     private lazy var tableView: UITableView = {
         let tableView = UITableView(frame: .zero)
         tableView.dataSource = self
@@ -25,13 +29,21 @@ class HomeViewController:UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        floatySet()
         setupNavigationBar()
         setupTableView()
     }
     
 }
+extension HomeViewController {
+    
+    func floatySet(){
+        floaty.buttonColor = .orange
+        floaty.plusColor = .white
+        
 
+    }
+}
 extension HomeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
@@ -108,6 +120,16 @@ private extension HomeViewController{
         tableView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }
+        
+        tableView.addSubview(floaty)
+        floaty.snp.makeConstraints { make in
+            make.width.equalTo(50)
+            make.height.equalTo(50)
+            make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-15)
+            make.trailing.equalTo(view.safeAreaLayoutGuide).offset(-15)
+        }
+        
+        
         
         
         
